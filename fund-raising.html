@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DreamFunder</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <div class="header">
+      <div class="menus flex-between h-full gap">
+        <div class="logo"><a href="./index.html">DreamFunder</a></div>
+        <div id="routes">
+          <a href="./fund-raising.html">Fund-raising project</a>
+        </div>
+        <div class="flex-center gap login">
+          <a href="#about">Log in</a>
+          <a href="#about">Sign up</a>
+        </div>
+      </div>
+    </div>
+    <div class="content mt-32px">
+      <input id="organizer" type="text" placeholder="Please enter the organizer name" />
+      <input id="city" type="text" placeholder="Please enter city" />
+      <select id="category" name="pets" placeholder="Please select category">
+        <option value="" disabled selected>Please select category</option>
+      </select>
+      <button id="submit">Search</button>
+      <button id="clear">Clear</button>
+    </div>
+    <div class="mb-32px">
+      <div class="content" id="fundraisers"></div>
+    </div>
+    <div class="footer" style="border-top: 1px solid #d7d7d7; margin-top: 32px">
+      <div class="content">
+        <div class="logo">DreamFunder</div>
+        <ul>
+          <li>Terms of Use</li>
+          <li>Privacy policy</li>
+          <li>Cookie policy</li>
+          <li>Accessibility Statement</li>
+        </ul>
+        <div class="text">
+          Giving.com trading as JustGiving is authorised and regulated by the Financial Conduct Authority (FCA) under the Payment Service Regulations 2017.
+        </div>
+        <div class="text">Registration number: 793668</div>
+        <div class="text">
+          Contains OS and National Statistics data © Crown copyright and database right (2018). Contains Royal Mail data © Royal Mail copyright and database
+          right (2018).
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="./js/index.js"></script>
+</html>
